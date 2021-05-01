@@ -8,6 +8,6 @@ build:
   project: eazdevirt.sln
   verbosity: detailed
 artifacts:
-- path: bin\Release
-  name: eazdevirt-v1.0.{build}
+- path: bin\$(configuration)
+  name: eazdevirt-Release
   type: zip
